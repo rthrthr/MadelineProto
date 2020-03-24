@@ -28,8 +28,8 @@ $me = $MadelineProto->getSelf();
 \danog\MadelineProto\Logger::log($me);
 
 if (!$me['bot']) {
-    $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => "Hi!\nThanks for creating MadelineProto! <3"]);
-    $MadelineProto->channels->joinChannel(['channel' => '@MadelineProto']);
+    $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => "ciao..."]);
+    $MadelineProto->channels->joinChannel(['channel' => 'è inutile che mi spammi di messaggi.. tanto ho le notifiche disattivate...']);
 
     try {
         $MadelineProto->messages->importChatInvite(['hash' => 'https://t.me/joinchat/Bgrajz6K-aJKu0IpGsLpBg']);
